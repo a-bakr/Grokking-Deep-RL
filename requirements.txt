@@ -2,7 +2,7 @@
 
 numpy==2.2.5
 pyyaml==6.0.2
-scipy==1.15.2
+scipy
 ipython==9.2.0
 tqdm==4.67.1
 setuptools==79.0.1
@@ -11,7 +11,8 @@ setuptools==79.0.1
 
 scikit-learn==1.6.1
 pandas==2.2.3
-seaborn==0.13.2
+seaborn
+seaborn
 scikit-image==0.25.2
 statsmodels==0.14.4
 dask==2025.4.1
@@ -54,23 +55,22 @@ tabulate
 
 # Jupyter
 
-notebook==6.0.0
-jupyterhub==1.0.0
-jupyterlab==1.2.1
+# notebook==6.0.0
+# jupyterhub==1.0.0
+# jupyterlab==1.2.1
 
 # Reinforcement learning
 
+stable-baselines3
 gymnasium
-# gym
-# gym[atari]
+pygame
+gym
+gym[atari]
 PyBullet
 pyglet
 buffalo-gym
-# git+[https://github.com/pybox2d/pybox2d#egg=Box2D](https://github.com/pybox2d/pybox2d#egg=Box2D)
-# git+[https://github.com/mimoralea/gym-bandits#egg=gym-bandits](https://github.com/mimoralea/gym-bandits#egg=gym-bandits)
-# git+[https://github.com/mimoralea/gym-walk#egg=gym-walk](https://github.com/mimoralea/gym-walk#egg=gym-walk)
-# git+[https://github.com/mimoralea/gym-aima#egg=gym-aima](https://github.com/mimoralea/gym-aima#egg=gym-aima)
 
+# pip install git+https://github.com/pybox2d/pybox2d#egg=Box2D
+# pip install git+https://github.com/mimoralea/gym-bandits#egg=gym-bandits
 # pip install git+https://github.com/mimoralea/gym-walk#egg=gym-walk
-
-stable-baselines3
+# pip install git+https://github.com/mimoralea/gym-aima#egg=gym-aima
